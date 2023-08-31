@@ -1,0 +1,188 @@
+
+@font-face {
+     font-family: 'Roboto', sans-serif;
+     src: url('https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet');
+}
+
+body{
+	font-family: Roboto;
+
+}
+
+.paragrafo{
+	text-align: justify;
+	font-weight: 200;
+	font-size: 1.4em;
+}
+
+.paragrafo_logo{
+	text-align: justify;
+	font-weight: 100;
+	font-size: .9em;
+	height: 180px;
+
+}
+
+.paragrafo_logo:hover{
+	background-color: #E6E6E6;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.partners_legend{
+	text-transform: bold;
+	font-size: 1em;
+	font-weight: 10px;
+}
+
+.alinhar{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption{
+	margin-top: 20px;
+}
+
+.tamanho_logo{
+		margin-left: 20px;
+		width: 200px;
+		height: 200px;
+	}
+
+.paragrafo_circle{
+	text-align: justify;
+	font-size: 1em;
+}
+
+.table_margin_top{
+	margin-top:30px;
+}
+
+.circle{
+	border-radius: 50%;
+	background-color: blue;
+	width: 240px;
+	height: 240px;
+	margin:2% 2%;
+}
+
+.download {
+	font-weight: bold;
+	font-color:#4A99D2;
+}
+
+img{
+	/*width: 140px;
+	height: 140px;*/
+	vertical-align: middle;
+}
+
+select{
+
+
+
+  
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.bt_center{
+	position:relative;
+	 display: block;
+	  text-align: center;
+}
+.img-center{
+         position: relative;
+         left: 30%;
+}
+
+.img-center2{
+         position: relative;
+         left: 30%;
+
+         height: 160px;
+         width: 160px;
+}
+
+.img-center3{
+         position: relative;
+         left: 10%;
+
+         height: 170px;
+         width: 300px ;
+}
+
+
+.texto-rodape{
+	font-family: Roboto;
+	font-size: 1em;
+	color:#fff;
+
+}
+
+.form-margin{
+	margin-top: 50px;
+}
+
+.sair{
+	font-size: 18pt;
+	color: #878787;
+}
+
+@media (max-width: 1200px) 
+{
+  .img_footer
+   {
+    margin-bottom:20px;
+   }
+}
+
+.nav-mob span{
+	background-color: #fff;
+}
+
+.navbar-cor{
+	background-color: #1b4b6d;
+
+}
+
+.nav-botao{
+	color:#FFF;
+	text-decoration: none;
+}
+
+
+
+.nav-botao:visited{
+	color:#fff;
+
+text-decoration: none;
+}
+
+.nav-botao:active{
+	text-decoration: none;
+}
+
+.nav-botao:hover{
+	color:#FC8D01;
+}
+
+
+footer{
+	margin-top: 50px;
+}
+
+footer:img{
+	width: 300px;
+}

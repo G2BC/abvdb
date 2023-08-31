@@ -1,0 +1,27 @@
+.desc_home{ width: 70% !important; margin: 0 auto; }
+.desc_home h1{ text-align: center; margin-bottom: 20px; }
+.desc_comum{ width: 70% !important; margin: 0 auto; }
+.desc_comum h1{ text-align: center; margin-bottom: 20px; }
+
+.item_home{ cursor:pointer; text-align: center; color: #283d4b; background: #f4f4f4; border-radius:5px; margin: 2% 2%; padding: 40px;  }
+.item_home:hover{ background: #283d4b; color: #FFF; }
+#titulo_pg h1 a:hover{ text-decoration: none; color: #f3f3f3; }
+.services h1{ text-align: center; }
+
+.entry-title{ text-align: center; }
+
+.item_home.database{ padding: 20px !important; height: 120px; margin: 10px auto; display: block; width: 100%; }
+.content-area{ margin-top: -25px !important; }
+
+.modal-dialog{ width: 70% !important; }
+
+.dt-buttons{ margin: 0 auto; width: 250px; display: block; }
+.dt-button{ color: #333; background-color: #e6e6e6; border-color: #adadad; padding: 5px; margin-right: 5px; border-radius: 3px; float: left; }
+@media (max-width: 800px){  
+    .desc_comum{ width: 80% !important; margin: 0 auto; }
+    .modal-dialog{ width: 95% !important; }
+}
+
+@media (max-width: 650px){  
+    .desc_comum{ width: 90% !important; margin: 0 auto; }
+}
